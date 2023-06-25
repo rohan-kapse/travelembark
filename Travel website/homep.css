@@ -1,0 +1,1272 @@
+body {
+  background-color: black;
+
+}
+
+/*--------------Homepage here---------- */
+
+ .homepage{
+  background-image: url("./images/pexels-james-wheeler-1539225.jpg");
+  background-size: cover; 
+  background-position:center;
+  position:absolute;
+  overflow: hidden;
+  height:100vh;
+  top:0px;
+  left:0px;
+  right:0px;
+ }
+
+ .webs-name {
+  font-size: 19px;
+  margin-left:35px;
+  font-family: "Lobster", cursive;
+  letter-spacing: 2.5px;
+  color: #ecf2ff;
+ }
+
+ .webs-name h1{
+  margin-top:20px;
+} 
+
+ .navbar{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  justify-content:space-between;
+}
+
+
+
+.nav-links ul{
+  display:flex;
+  gap:105px;
+  list-style:none;
+  
+}
+
+.hover-links{
+  text-decoration:none;
+  color: gainsboro;
+  font-size: 19px;
+  font-family: "Dosis", sans-serif;
+  
+}
+
+
+.nav-links li{
+  margin:10px;
+  font-family: "Dosis", sans-serif;
+}
+
+
+.nav-links a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+
+.nav-links a:hover {
+  color: white;
+}
+
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+
+.contact-btn {
+  font-family: "Dosis", sans-serif;
+  border: 1px solid white;
+  background-color: transparent;
+  font-size: 19px;
+  padding: 4px 10px 4px 10px;
+  margin-right:90px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+
+}
+
+.contact-btn:hover {
+  background-color: #fc8621;
+}
+
+.sub-btn{
+  text-decoration:none;
+  color: white; 
+  margin:5px;
+}
+
+.toggle_menu{
+  display:none;
+}
+ 
+ #ham_menu{
+  color:white;
+}
+
+.Quote {
+  color: #cce1f5;
+  position: absolute;
+  top: 170px;
+  left: 55%;
+  /* color:#0A4D68; */
+   font-family: "Ubuntu", sans-serif;
+  font-size: 46px;
+  width: 32%;
+}
+
+.Quote:hover {
+  background-color: transparent;
+  padding: 3px;
+  border: 1px solid black;
+  box-shadow: -2px 4px 18px 3px;
+  transition: background-color 0.3s ease; 
+
+/* 
+@media(max-width:991px){
+  .webs-name{
+    margin-bottom:55%;
+    z-index:2;
+  }
+ .toggle_menu{
+   display:block;
+   margin-right:50px;
+   margin-bottom:54%;
+   z-index:1;
+ }
+
+ .nav-links {
+   margin-top:30px;
+   margin-bottom:0px;
+   position:absolute;
+   width:100%;
+   left: -100%;
+   bottom:0px;
+   height:100%;
+   transition: 0.2s ease-in-out;
+   z-index:1;
+   background-color:black;
+ }
+
+ .nav-links.active{
+   left:0;
+ }
+ .nav-links ul{
+   flex-direction:column;
+   align-items:center;
+   margin:50px;
+   padding:10px;
+   margin-top:95px;
+   gap:60px;
+   
+ }
+
+
+ .contact-btn{
+  display:none;
+ }
+
+ .Quote{
+  font-size: 46px;ś
+  width: 49%;
+  left: 44%;
+  top:21%;
+ }
+
+
+ 
+}
+ 
+
+
+
+
+/*//////////////////// another web code Contact us button here /////////////////*/
+
+ .hover-btn {
+  font-family: "Dosis", sans-serif;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 17px;
+  padding: 4px;
+  border-radius: 15px;
+  width: 15%;
+  position: absolute;
+  transition: background-color 0.3s ease;
+  left: 115%;
+  bottom:13%;
+}
+
+.hover-btn:hover {
+  background-color: #ffae42;
+}
+ 
+
+
+
+/*////////////////// homepage motto quote here ////////////////////*/
+
+ .Quote {
+  color: #cce1f5;
+  position: absolute;
+  top: 128px;
+  left: 55%;
+  /* color:#0A4D68; */
+   font-family: "Ubuntu", sans-serif;
+  font-size: 46px;
+  width: 32%;
+}
+
+.Quote:hover {
+  background-color: transparent;
+  padding: 3px;
+  border: 1px solid black;
+  box-shadow: -2px 4px 18px 3px;
+  transition: background-color 0.3s ease;
+} 
+
+/*/////////////// companies logos here////////// */
+
+ #comp-served {
+  position: absolute;
+  width: 99%;
+  top: 830px;
+}
+
+.imo {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+  margin-left: 80px;
+}
+
+.imo:hover {
+  opacity: 1;
+}
+
+.ito {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+  margin-left: 200px;
+}
+
+.ito:hover {
+  opacity: 1;
+}
+
+.iro {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+  margin-left: 200px;
+}
+
+.iro:hover {
+  opacity: 1;
+}
+
+.ifo {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+  margin-left: 230px;
+}
+
+.ifo:hover {
+  opacity: 1;
+}
+
+/* breakpoints for homepage and logo effects */
+
+ 
+  
+
+  
+  
+
+  
+  
+
+
+
+/* 
+////////////////// Second page here ////////////////// */
+
+#Second-page {
+  position: relative;
+  height: 190px;
+  top: 980px;
+}
+#Second-page .description {
+  position: absolute;
+  bottom: 60%;
+  left: 5%;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: "Ubuntu", sans-serif;
+  color: #1c6758;
+}
+
+#Second-page h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#Second-page .more {
+  position: absolute;
+  top: 30%;
+  left: 52%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
+  color: #bababa;
+}
+
+#places-vis {
+  position: absolute;
+  width: 98%;
+  left: 1%;
+  height: 710px;
+  top: 160%;
+}
+
+#places-vis img {
+  opacity: 0.7;
+  border-radius: 10px; 
+}
+/* images hover effect */
+#places-vis img:hover {
+  opacity: 0.9;
+  
+}
+
+/* image hover */
+ #places-vis .jap {
+  margin-left: 4.3%;
+  top: 4%;
+}
+
+.jap { transition: all .2s ease-in-out; }
+.jap:hover { transform: scale(1.1); }
+
+
+
+#places-vis .par {
+  margin-left: 7.5%;
+  position: relative;
+  top: 30%;
+}
+
+.par { transition: all .2s ease-in-out; }
+.par:hover { transform: scale(1.1); }
+
+
+
+
+#places-vis .swi {
+  margin-left: 7.5%;
+}
+
+
+.swi { transition: all .2s ease-in-out; }
+.swi:hover { transform: scale(1.1); }
+
+
+
+#places-vis .nyc {
+  position: relative;
+  margin-left: 8%;
+  top: 30%;
+}
+
+
+
+.nyc{ transition: all .2s ease-in-out; }
+.nyc:hover { transform: scale(1.1); }
+
+/* content places styled here  */
+
+ #moreabtj {
+  width: 16%;
+  position: absolute;
+  color: #bababa;
+  top: 220%;
+  left: 5.3%;
+}
+#moreabtj h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 28px;
+  color: white;
+}
+
+#moreabtj p {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  color: #bababa;
+}
+
+#contentp h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 28px;
+  color: white;
+  width: 15%;
+  line-height: 125%;
+  position: absolute;
+  top: 158%;
+  left: 29.3%;
+}
+
+#contentp p {
+  width: 19%;
+  position: absolute;
+  top: 169%;
+  left: 29.3%;
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  color: #bababa;
+}
+
+#contents {
+  position: absolute;
+  width: 17%;
+  top: 220%;
+  left: 53.3%;
+}
+
+#contents h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 28px;
+  color: white;
+}
+
+#contents p {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  color: #bababa;
+}
+
+#contentn h1 {
+  position: absolute;
+  font-family: "Ubuntu", sans-serif;
+  width: 15%;
+  font-size: 28px;
+  color: white;
+  top: 158%;
+  left: 78%;
+}
+
+#contentn p {
+  position: absolute;
+  font-family: "Dosis", sans-serif;
+  width: 20%;
+  font-size: 18px;
+  top: 169%;
+  left: 78%;
+  color: #bababa;
+}
+
+.seeyll {
+  position: absolute;
+  top: 258%;
+  left: 41%;
+  /*   width: 18%; */
+  height: 8%;
+  z-index: ;
+}
+
+  
+
+.btn-sad {
+  position: relative;
+  top: 23%;
+  border: 1px solid #ededed;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  border-radius:23px;
+  font-family: "Dosis", sans-serif;
+  padding-left: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 20px;
+  margin: 10px;
+  color: white;
+}
+
+.btn-sad:hover{
+  background-color:white;
+  color:#222222;
+  transition: background-color 0.5s ease-out;
+}
+
+.pthree {
+  position: relative;
+  height: 490px;
+  top: 270%;
+}
+.pthree {
+  position: absolute;
+  bottom: 60%;
+  height: 33%;
+  width: 98%;
+  left: 1%;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: "Ubuntu", sans-serif;
+  color: #1c6758;
+}
+
+.pthree h1 {
+  font-size: 45px;
+  letter-spacing: 1px;
+  color: white;
+  position: absolute;
+  width: 35%;
+  top: 45%;
+  left: 5%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.pthree .explore {
+  position: absolute;
+  width: 10%;
+  top: 50px;
+  left: 5%;
+}
+.pthree .ex-pan {
+  position: absolute;
+  top: 55%;
+  left: 42em;
+  width: 32%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
+  color: #bababa;
+}
+
+.back_packer {
+  position: absolute;
+  top: 109%;
+  left: 5%;
+  height: 228%;
+  width: 88%;
+}
+
+
+
+.pfour {
+  position: relative;
+  height: 490px;
+  background-color:#100d0d;
+  top: 388%;
+}
+.pfour {
+  position: absolute;
+  bottom: 65%;
+  height: 70%;
+  width: 94%;
+  left: 3%;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: "Ubuntu", sans-serif;
+  color: #1c6758;
+}
+
+.pfour h1 {
+  font-size: 45px;
+  letter-spacing: 1px;
+  color: white;
+  position: absolute;
+  width: 47%;
+  top: 5%;
+  left: 3%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.pfour .ex_pl_ore {
+  position: absolute;
+  width: 8%;
+  bottom: 87%;
+  left: 3%;
+}
+
+.pfour .eplo_se {
+  position: absolute;
+  top: 35%;
+  left: 3%;
+  width: 41%;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
+  color: #bababa;
+}
+
+.regis_r {
+  position: absolute;
+  top: 65%;
+  left: 3%;
+  /*   width: 18%; */
+
+  height: 12%;
+}
+.named-reg {
+  position: relative;
+  top: 23%;
+  border: 1px solid #ededed;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  border-radius:23px;
+  font-family: "Dosis", sans-serif;
+  padding-left: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 20px;
+  margin: 10px;
+  color: white;
+}
+.named-reg:hover{
+  background-color:white;
+  color:#222222;
+  transition: background-color 0.5s ease-out;
+}
+
+
+.rou_tine {
+  position: absolute;
+  top: 3%;
+  left: 59%;
+  width: 40%;
+  height: 95%;
+} 
+
+.rou_tine .d_dayro h1 {
+  position: relative;
+  font-size: 25px;
+  top: 2px;
+  left: 3%;
+  width: 12%;
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
+}
+
+.rou_tine .d_dayro p {
+  position: relative;
+  bottom: 10px;
+  left: 3%;
+  width: 95%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
+  color: #bababa;
+}
+
+.rou_tine .d_dayro:hover{
+  background-color:  #142824;
+}
+
+.rou_tine .e_dayro p {
+  position: relative;
+  bottom: 5px;
+  left: 3%;
+  width: 95%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
+  color: #bababa;
+}
+
+.rou_tine .e_dayro h1 {
+  position: relative;
+  font-size: 25px;
+  top: 5px;
+  width: 13%;
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
+}
+
+.rou_tine .e_dayro:hover{
+  background-color:  #142824;
+}
+
+
+.rou_tine .k_dayro p {
+  position: relative;
+  bottom: 5px;
+  left: 3%;
+  width: 95%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
+  color: #bababa;
+}
+
+.rou_tine .k_dayro h1 {
+  position: relative;
+  font-size: 25px;
+  top: 5px;
+  width: 13%;
+  letter-spacing: 1px;
+  font-family: "Dosis", sans-serif;
+}
+
+.rou_tine .k_dayro:hover{
+  background-color: #142824;
+}
+
+
+.re_views{
+  position: absolute;
+  width: 94%;
+  top:460%;
+  left:3%;
+  height: 30%;
+ 
+} 
+ 
+.re_views p{
+  position: relative;
+  top:5% ;
+  height: 13%;
+  width: 11%;
+  left: 3%;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-family: "Ubuntu", sans-serif;
+  color: #1c6758;
+}
+
+.re_views h1{
+  
+   font-size: 45px;
+  letter-spacing: 1px;
+  color: white;
+  position: absolute;
+  width:38%;
+  top:30%;
+  left: 3%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.st_ar{
+  
+  color:gold;
+  font-size: 30px;
+
+  
+}
+.first_rev{
+  position: absolute;
+  background-color: #17141d;
+  border-radius:3%;
+  
+   transition: 0.4s ease-out;
+  width: 38%;
+  padding:15px;
+  top:494%;
+  left:5.8%;
+  
+  height: 30%;
+}
+
+.first_rev:hover {
+  transform: translateY(-20px);
+  box-shadow: -3px 0 1.5rem #ebe8e8;
+  transition: 0.4s ease-out;
+}
+
+
+.first_rev p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  
+  font-family: "Ubuntu", sans-serif;
+  color: #bababa;
+}
+.fiv_star{
+  width:28%
+}
+
+.det_rev {
+  position:relative;
+  left:5px;
+}
+.img-contone{
+  position:relative;
+  width:11%;
+  height:26%;
+  top:6%;
+  
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.ld_cap{
+  width:108%;
+  object-fit:cover;
+}
+
+.cust_omer{
+    position:relative;
+  width:33%;
+  height:20%;
+  left:13%;
+  bottom:21%;
+}
+
+.cust_omer h1{
+  color:white;
+  font-size:20px;
+  
+  font-family: "Ubuntu", sans-serif;
+}
+
+.cust_omer p{
+  position:absolute;
+  top:25%;
+  color: #bababa;
+  font-size:15px;
+  
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+.sec_rev{
+  position: absolute;
+  background-color: #17141d;
+  width: 35%;
+  transition: 0.4s ease-out;
+  border-radius:3%;
+  padding:15px;
+  top:494%;
+  left:55%;
+  height: 30%;
+}
+
+
+.sec_rev:hover {
+  transform: translateY(-20px);
+  box-shadow: -3px 0 1.5rem #ebe8e8;
+  transition: 0.4s ease-out;
+}
+
+.sec_rev p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  
+  font-family: "Ubuntu", sans-serif;
+  color: #bababa;
+}
+.for_star{
+  width:28%
+}
+
+.irom_rev {
+  position:relative;
+  left:5px;
+}
+.img-iron{
+  position:relative;
+  width:11%;
+  height:26%;
+  top:13%;
+  left:1%;
+  
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.ir_to{
+  width:100%;
+  object-fit:cover;
+}
+
+.cust_iron{
+    position:relative;
+  width:57%;
+  height:20%;
+  left:14%;
+  bottom:15%;
+}
+
+.cust_iron h1{
+  color:white;
+  font-size:20px;
+  
+  
+  font-family: "Ubuntu", sans-serif;
+}
+
+.cust_iron p{
+  position:absolute;
+  top:25%;
+  width:95%;
+  color: #bababa;
+  font-size:15px;
+  
+  font-family: "Ubuntu", sans-serif;
+} 
+
+
+
+
+
+
+
+ 
+.thir_rev{
+  position: absolute;
+  background-color:#191515;
+  width: 35%;
+  border-radius:3%;
+  padding:15px;
+  top:494%;
+  left:50%;
+  height: 28%;
+}
+.thir_rev p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  
+  font-family: "Ubuntu", sans-serif;
+  color: #bababa;
+}
+.thre_star{
+  width:28%
+}
+
+.spar_rev {
+  position:relative;
+  left:5px;
+}
+.sp_ja{
+  position:relative;
+  width:11%;
+  height:30%;
+  top:20%;
+  left:1%;
+  
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.ro_de{
+  width:100%;
+  object-fit:cover;
+}
+
+.cust_iron{
+  position:relative;
+width:57%;
+height:20%;
+left:14%;
+bottom:14%;
+}
+
+.jh_dep h1{
+  color:white;
+  font-size:20px;
+  
+  font-family: "Ubuntu", sans-serif;
+}
+
+.jh_dep p{
+  position:absolute;
+  top:25%;
+  color: #bababa;
+  font-size:15px;
+  
+  font-family: "Ubuntu", sans-serif;
+}
+  
+
+
+   .question-pg {
+    position: absolute;
+   width: 94%;
+   top:540%;
+    
+   left:3%;
+   height: 57%;
+  }
+
+  
+  .question-pg img{
+    position:absolute;
+    width:40%;
+    opacity:0.5;
+/*     height:110%; */
+     left:55%;
+    border-radius:1%;
+   
+    top:8%;
+  }
+  
+  .question-pg h1{
+    position:relative;
+    left:3%;
+   letter-spacing:1px;
+     font-size: 45px;
+     width:42%;
+   color: white;
+   
+   font-family: "Ubuntu", sans-serif;
+  }
+
+  
+.me1{
+    position:relative;
+  height:10%;
+  width:26%;
+  left:3%;
+  
+}
+
+
+
+  .question-pg p{
+    position:relative;
+    font-size:20px;
+    color:white;
+    letter-spacing:1px;
+   left:1%;
+    top:12%;
+      font-family: "Dosis", sans-serif;
+    width:95%;
+  }
+  
+  
+  
+  .contact_page{
+    position:absolute;
+     top:605%;
+    color:white;
+     height: 45%;
+     width:98%;
+    left:1%;
+  }
+
+.comp-abt{
+  height:90%;
+}
+  
+  .comp-abt h1{
+    position:relative;
+    font-size: 33px;
+    width:15%;
+    font-family: "Lobster", cursive;
+    letter-spacing: 2.5px;
+    color: #ecf2ff;
+    left:4.8%;
+    top:5px;
+    
+  }
+  
+  .comp-abt p{
+    position:relative;
+    font-size: 15px;
+    width:27%;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 2.5px;
+    color: #ecf2ff;
+    left:4.8%;
+  }
+  
+  
+  .icons-main{
+    position:relative;
+    letter-spacing:20px;
+    width:8.3%;
+      text-align:center;
+    height:28px;
+    top:5%;
+    left:4.7%;
+    
+  }
+
+.icons-main #bokfa{
+  position:relative;
+  width:16%;
+   padding:3px;
+  left:3%;
+  top:10%;
+}
+
+#bokfa:hover{
+  color:rgb(24, 119, 242);
+  transition:  ease-in-out 0.3s;
+}
+
+
+
+  .icons-main #gramins{
+     position:relative;
+  width:11.5%;
+    padding:3px;
+     top:10%;
+}
+
+
+#gramins:hover{
+  color:rgb(228, 64, 95) ;
+   transition:  ease-in-out 0.3s;
+}
+
+.icons-main #ttwet{
+   position:relative;
+  width:16%;
+  right:3%;
+   padding:3px;
+   top:10%;
+}
+
+
+#ttwet:hover{
+  color:rgb(29, 155, 240) ;
+   transition:  ease-in-out 0.3s;
+}
+  .one-nav{
+    position:absolute;
+    width:10%;
+    left:54%;
+    top:9%;
+     
+  }
+  
+  
+
+  .one-nav li{
+    position:relative;
+    list-style:none;
+     font-family: "Ubuntu", sans-serif;
+   
+    width:85%;
+    right:18%;
+    margin-bottom:19px; 
+     text-align:center; 
+    
+  }
+
+  .one-nav li:hover{
+    color:#888b8a;
+    transition:  ease-in-out 0.1s;
+  }
+
+
+  .twe-nav{
+    position:absolute;
+    width:10%;
+    left:70%;
+    height:50%;
+    bottom:40%;
+  }
+  
+  .twe-nav li{
+    position:relative;
+    list-style:none;
+     font-family: "Ubuntu", sans-serif;
+     margin-bottom:19px;
+    right:10%;
+    width:76%;
+  }
+  .twe-nav li:hover{
+    color:#888b8a;
+    transition:  ease-in-out 0.1s;
+  }
+
+  
+  .the-nav{
+    position:absolute;
+    width:10%;
+    left:85%;
+    bottom:51%;
+  }
+  .the-nav li{
+    position:relative;
+    list-style:none;
+     font-family: "Ubuntu", sans-serif;
+     margin-bottom:19px;
+    right:10%;
+    width:86%;
+  }
+  .the-nav li:hover{
+    color:#888b8a;
+    transition:  ease-in-out 0.1s;
+  }
+  
+  .copy_rt .line{
+    position:absolute;
+    left:2%;
+    bottom:125%;
+     height: 1px;
+    width:95%;
+    
+  
+   background: linear-gradient(to right, #1d1b1b, #3b3636,#1d1b1b); 
+  }
+  .copy_rt{
+    display:flex;
+     position:relative;
+    bottom:10%;
+    height:10%;
+       font-family: "Dosis", sans-serif;
+    width:100%;
+  }
+  
+
+
+  .copy_rt p{
+    position:relative;
+    text-align:center;
+    
+  }
+
+ .copy_rt .p1{
+   width:10%;
+   height:70%;
+   left:4.5%;
+   bottom:30%;
+   
+ }
+
+
+.copy_rt .p2{
+   width:10%;
+   height:70%;
+   left:9%;
+   bottom:30%;
+   
+ }
+
+
+.copy_rt .p7{
+   width:10%;
+   height:70%;
+    left:34.3%;
+   bottom:30%;
+   
+ }
+
+.copy_rt .priv_c{
+   width:7%;
+   height:70%;
+  left:41.5%;
+   bottom:30%;
+ }
+
+.copy_rt .Si_te{
+   width:5%;
+   height:70%;
+  left:49.6%;
+   bottom:30%;
+ } 
